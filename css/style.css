@@ -1,0 +1,299 @@
+.header {
+    background: #370C0C;
+    position: sticky;
+    top: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+}
+
+.logo-img {
+    margin: auto;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav_item {
+    margin-right: 63px;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #c0d2d5;
+    text-decoration: none;
+}
+
+/* 
+padding - внутренний отступ
+margin - внешний отступ
+display: flex - задаёт расположение 
+            элементов в строку.
+ul - список
+p - абзац
+li - элементы списка
+height - высота (хэйт)
+widht - ширина (ВИЗ)
+a - ссылка
+list-style - nOne - убирает маркировку списка
+background - меняет задний фон (бэкграунд)
+text-align - меняет положение текста(текст-элидж)
+align-items - задаёт расположение для блоков
+h1- заголовок первого уровня, всего их 6
+div - контейнер
+*/
+
+.hero-block {
+    background: #000000;
+}
+
+.container_hero-block {
+    padding: 60px 0 53px 0;
+    display: flex;
+}
+
+.hero-block_img {
+    height: 595px;
+    margin-right: auto;
+}
+
+.hero-block_content {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.hero-block_title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: #E4E4E4;
+}
+
+.hero-block_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #E4E4E4;
+    margin-top: 50px;
+}
+
+.hero-block_btn {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #fcfcfc;
+    width: 181px;
+    height: 47px;
+    /* orange */
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 100px;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.skills_full {
+    background: #CDC616;
+    height: 4px;
+}
+
+.skills_done {
+    background: #2C2C2C;
+    height: 4px;
+    width: 70%;
+}
+
+.skills_fullblue {
+    background: #0F3F4A;
+}
+
+.container_about {
+    padding: 87px 0 105px 0;
+}
+
+.about {
+
+    background: #968B25;
+}
+
+.about_title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #5D1B1B;
+}
+
+.skills_title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E4E4E4;
+}
+
+.skills_name {
+
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E4E4E4;
+}
+
+.skills_list {
+    list-style: none;
+    padding: 0;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.skills {
+    width: 450px;
+}
+
+.about_img {
+    width: 336px;
+    height: 336px;
+}
+
+.video {
+    background: #E1DFFB;
+    padding: 70px 0 134px 0;
+}
+
+.video_title {
+    margin: 0px;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #0B0D01;
+}
+
+.video_border {
+    max-width: 970px;
+    width: 970px;
+    height: 600px;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+    margin: 70px auto 0 auto;
+}
+
+.video_container {
+    max-width: 881px;
+    max-height: 511px;
+    margin: auto;
+}
+
+.video_content {
+    width: 881px;
+    height: 511px;
+    margin-top: 44px;
+}
+
+.gallery_title {
+    color: #E4E4E4;
+    font-size: 48px;
+    font-family: 'Nico Moji';
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+
+.gallery_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.gallery_item {
+    width: 32%;
+}
+
+.gallery_img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    background: #CA2525;
+    padding: 70px 0;
+}
+
+.footer_item {
+    list-style: none;
+}
+
+.footer_list {
+    display: flex;
+width: 243px;
+justify-content: space-between;
+}
+
+.footer_container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0  auto;
+    justify-content: space-between;
+}
+.footer{
+    background: #B2B516;
+}
+
